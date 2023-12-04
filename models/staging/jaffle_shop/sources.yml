@@ -20,9 +20,3 @@ sources:
                 tests:
                   - unique
                   - not_null   
-    - name: stripe
-      description: Payment data 
-      database: raw
-      schema: stripe
-      tables:
-          - name: payment
